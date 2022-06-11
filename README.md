@@ -104,7 +104,8 @@ if (match_idx != -1)
 For more usage examples I encourage you to look at the code in the `tests`-folder.
 
 ### TODO
-- Fix implementation of branches (`|`), and see if that can lead us closer to groups as well, e.g. `(a|b)+`.
+- Fix implementation of branches (`|`), and see if that can lead us closer to groups as well, e.g. `(a|b)+`. See rurban's branch+group.
+- Add `{n}`, `{n,m}` quantifier support.
 - Add `example.c` that demonstrates usage.
 - Add `tests/test_perf.c` for performance and time measurements.
 - Add optional multibyte support (e.g. UTF-8)
